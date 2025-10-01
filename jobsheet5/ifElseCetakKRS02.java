@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class ifElseCetakKRS02 {
 
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in); 
 
         System.out.println("--- Cetak KRS SIAKAD ---");
         System.out.print("Masukkan semester saat ini : ");
