@@ -7,9 +7,9 @@ public class nestedUjianSkripsi02 {
         System.out.print("Apakah mahasiswa sudah bebas kompen? (Ya/Tidak): ");
         String bebasKompen = sc.nextLine().trim();
 
-        System.out.print("Masukkan jumah log bimbingan Pembimbing 1: ");
+        System.out.print("Masukkan jumlah log bimbingan Pembimbing 1: ");
         int bimbinganP1 = sc.nextInt();
-        System.out.print("Masukkan jumah log bimbingan Pembimbing 2: ");
+        System.out.print("Masukkan jumlah log bimbingan Pembimbing 2: ");
         int bimbinganP2 = sc.nextInt();
 
         if (bebasKompen.equalsIgnoreCase("ya")) {
@@ -23,7 +23,7 @@ public class nestedUjianSkripsi02 {
                 pesan = "Gagal! log bimbingan P2 belum mencapai 4 kali.";
             }
         } else {
-            pesan = "Mahasiswa tidak boleh ujian skripsi karena belum bebas kompen.";
+            pesan = "Gagal! Mahasiswa masih memiliki tanggungan kompen";
         }
         System.out.println(pesan);
     }
